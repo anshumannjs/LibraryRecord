@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+        #books{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        #is{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .common{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            width: 75%;
+            justify-content: space-between;
+        }
+        .common div{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="form">
+        <div id="" class="name">
+            Name
+            <input type="text" name="Name" id="name">
+        </div>
+        <div id="" class="author">
+            Author
+            <input type="text" name="Author" id="author">
+        </div>
+        <div id="" class="radio">
+            <input type="radio" name="a" id="fictional">
+            <label for="fictional">Fictional</label>
+            <input type="radio" name="a" id="cs">
+            <label for="cs">Computer science</label>
+            <input type="radio" name="a" id="novel">
+            <label for="novel">Novel</label>
+        </div>
+        <div id="submit">
+            <button>Add</button>
+        </div>
+    </div>
+    <br>
+    <div id="books">
+
+    </div>
+
+    <br>
+    <div id="is">
+
+    </div>
+
+
+    <script src="library.js"></script>
+</body>
+</html>
